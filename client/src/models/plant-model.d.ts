@@ -1,4 +1,4 @@
-type PlantModel = {
+type PlantsModel = {
   id: number,
   latin_name: string,
   name:{

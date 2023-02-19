@@ -10,13 +10,13 @@ const api = axios.create({
 });
 
 const fetchPlants = async () => {
-  const { data } = await api.get<PlantModel[]>('/plants');
+  const { data } = await api.get<PlantsModel[]>('/plants');
 
   return data;
 };
 
 const fetchPlant = async (id: string | number) => {
-  const { data } = await api.get<PlantModel>(`/plants/${id}`);
+  const { data } = await api.get<PlantsModel>(`/plants/${id}`);
 
   return data;
 };
