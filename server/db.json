@@ -9,9 +9,9 @@
       "uses": "Achillea millefolium has been used to treat a variety of conditions, including fever, colds, and inflammation. It may also have antioxidant and anti-inflammatory properties.",
       "habitat": "Achillea millefolium can be found in a variety of habitats, including meadows, fields, and roadsides.",
       "active_compounds": {
-        "chamazulene": "0.8 - 30%",
-        "borneol": "2 - 10%",
-        "camphor": "1 - 6%"
+        "chamazulene": 3,
+        "borneol": 10,
+        "camphor": 6
       },
       "photos": ["yarrow1.jpg", "yarrow2.jpg", "yarrow3.jpg"]
     },
@@ -99,12 +99,12 @@
         "uses": "St John's wort is commonly used to treat mild to moderate depression, anxiety, and sleep disorders. It is also used for other conditions, such as nerve pain, PMS, and menopausal symptoms.",
         "habitat": "St John's wort can be found in many different habitats, including fields, meadows, and woodland edges. It prefers sunny locations and well-drained soil.",
         "active_compounds": {
-          "hypericin": "0.3%",
-          "hyperforin": "3-5%",
-          "flavonoids": "1-4%",
-          "xanthones": "0.1-1%",
-          "proanthocyanidins": "0.1-1%",
-          "tannins": "2-4%"
+          "hypericin": 0.3,
+          "hyperforin": 5,
+          "flavonoids": 4,
+          "xanthones": 1,
+          "proanthocyanidins": 1,
+          "tannins": 4
         },
         "photos": ["stjohnswort1.jpg", "stjohnswort2.jpg", "stjohnswort3.jpg"]
       },
@@ -130,10 +130,10 @@
         "uses": "Hyssop is used for a variety of conditions, including digestive problems, respiratory infections, and as a general tonic. It has also been used to help relieve anxiety and nervous tension.",
         "habitat": "Hyssop is typically found in rocky, arid areas in the Mediterranean region, but is now grown in many parts of the world as a garden herb.",
         "active_compounds": {
-          "volatile oil": "1-2%",
-          "tannins": "3-4%",
-          "marrubin": "0.2-0.3%",
-          "flavonoids": "1-2%"
+          "volatile oil": 2,
+          "tannins": 4,
+          "marrubin": 0.3,
+          "flavonoids": 2
         },
         "photos": ["hyssop1.jpg", "hyssop2.jpg", "hyssop3.jpg"]
       },
@@ -162,9 +162,9 @@
         "uses": "Mandragora officinarum has been used for its psychoactive properties and as a traditional medicine for various conditions, including pain relief, sleep disorders, and as an anesthetic.",
         "habitat": "Mandragora officinarum grows in rocky and arid habitats.",
         "active_compounds": {
-          "atropine": "0.06%",
-          "scopolamine": "0.03%",
-          "hyoscyamine": "0.07%"
+          "atropine": 0.06,
+          "scopolamine": 0.03,
+          "hyoscyamine": 0.07
         },
         "photos": ["mandrake1.jpg", "mandrake2.jpg", "mandrake3.jpg"]
       },
@@ -177,9 +177,9 @@
         "uses": "Heal-all has been used to treat a wide range of conditions, including sore throat, wounds, and respiratory infections. It is also believed to have anti-inflammatory and antiviral properties.",
         "habitat": "Heal-all is a common plant that grows in meadows, fields, and along roadsides.",
         "active_compounds": {
-          "rosmarinic acid": "0.6%",
-          "ursolic acid": "0.3%",
-          "oleanolic acid": "0.2%"
+          "rosmarinic acid": 0.6,
+          "ursolic acid": 0.3,
+          "oleanolic acid": 0.2
         },
         "photos": ["healall1.jpg","healall2.jpg","healall3.jpg"]
       },
@@ -192,9 +192,9 @@
         "uses": "Dandelion has been used to treat a wide range of conditions, including liver and digestive disorders, skin problems, and arthritis. It is also believed to have diuretic and anti-inflammatory properties.",
         "habitat": "Dandelion is a common plant that grows in meadows, fields, and along roadsides.",
         "active_compounds": {
-          "luteolin": "0.6%",
-          "chicoric acid": "0.2%",
-          "taraxasterol": "0.1%"
+          "luteolin": 0.6,
+          "chicoric acid": 0.2,
+          "taraxasterol": 0.1
         },
         "photos": ["dandelion1.jpg", "dandelion2.jpg", "dandelion3.jpg"
         ]
@@ -225,10 +225,10 @@
         "uses": "Nettle leaves and roots have been used for traditional medicine, food, and textiles.",
         "habitat": "Nettle prefers moist soils and is often found in disturbed areas, especially near human habitation.",
         "active_compounds": {
-          "histamine": "0.02%",
-          "acetylcholine": "0.03%",
-          "serotonin": "0.05%",
-          "formic acid": "1.9%"
+          "histamine": 0.02,
+          "acetylcholine": 0.03,
+          "serotonin": 0.05,
+          "formic acid": 2
         },
         "photos": [
           "nettle1.jpg",
@@ -245,10 +245,10 @@
         "uses": "Mullein has been used in traditional medicine for a variety of ailments, including respiratory disorders and skin conditions.",
         "habitat": "Mullein is often found in open, disturbed areas such as roadsides, fields, and meadows.",
         "active_compounds": {
-          "mucilage": "3%",
-          "saponins": "2%",
-          "flavonoids": "1%",
-          "iridoid glycosides": "0.2%"
+          "mucilage": 3,
+          "saponins": 2,
+          "flavonoids": 1,
+          "iridoid glycosides": 0.2
         },
         "photos": [
           "mullein1.jpg",
