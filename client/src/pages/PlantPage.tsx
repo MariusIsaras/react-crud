@@ -7,7 +7,7 @@ import Kortele from 'components/Kortele'
 
 
 
-const PlantPage = () => {
+const PlantsPage = () => {
     console.log(Plants)
   return (
     <div className='plants-body'>

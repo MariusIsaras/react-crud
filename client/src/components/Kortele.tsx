@@ -9,7 +9,7 @@ const Kortele = () => {
         <Card>
             <CardMedia 
               component='img'
-              height='100px'
+              height='200px'
               image='http://source.unsplash.com/random'
               alt='unsplash image'
             />
