@@ -1,5 +1,6 @@
 const routes = {
   HomePage: '/',
+  PlantPage: '/Plants',
 } as const;
 
 export type Routes = typeof routes;
