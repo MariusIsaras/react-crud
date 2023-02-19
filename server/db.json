@@ -3,41 +3,49 @@
     {
       "id": 1,
       "latin_name": "Achillea millefolium",
-      "lt_name": "Paprastoji kraujažolė",
-      "en_name": "Common Yarrow",
+      "name": {
+        "lt_name": "Paprastoji kraujažolė",
+        "en_name": "Common Yarrow"
+      },
       "description": "Achillea millefolium is a flowering plant in the family Asteraceae, native to the Northern Hemisphere. It has been used in traditional medicine for centuries.",
       "uses": "Achillea millefolium has been used to treat a variety of conditions, including fever, colds, and inflammation. It may also have antioxidant and anti-inflammatory properties.",
       "habitat": "Achillea millefolium can be found in a variety of habitats, including meadows, fields, and roadsides.",
+      "height_cm": 30,
       "active_compounds": {
         "chamazulene": 3,
         "borneol": 10,
         "camphor": 6
       },
-      "photos": ["yarrow1.jpg", "yarrow2.jpg", "yarrow3.jpg"]
+      "photos": ["yarrow1.jpg", "yarrow2.jpg", "yarrow3.jpg" ]
     },
     {
       "id": 2,
       "latin_name": "Arctium lappa",
-      "lt_name": "Didžioji varnalėša",
-      "en_name": "Burdock",
+      "name": {
+        "lt_name": "Didžioji varnalėša",
+        "en_name": "Burdock"
+        },
       "description": "Arctium lappa is a biennial plant in the family Asteraceae, native to Europe and Asia. It has large, heart-shaped leaves and purple flowers.",
       "uses": "Arctium lappa has been used in traditional medicine to treat a variety of conditions, including skin problems, arthritis, and digestive issues. It may also have antibacterial and anti-inflammatory properties.",
       "habitat": "Arctium lappa can be found in a variety of habitats, including fields, meadows, and waste areas.",
+      "height_cm": 200,
       "active_compounds": {
         "arctiin": 2.5,
         "inulin": 45.0,
         "lappaconitine": 0.001
-      },
+        },
       "photos": ["burdock1.jpg", "burdock2.jpg", "burdock3.jpg"]
     },
     {
       "id": 3,
       "latin_name": "Artemisia absinthium",
-      "lt_name": "Pelynas",
-      "en_name": "Wormwood",
+      "name":{
+        "lt_name": "Pelynas",
+        "en_name": "Wormwood"},
       "description": "Artemisia absinthium is a herbaceous perennial plant in the family Asteraceae, native to temperate regions of Europe and Asia. It has silver-gray leaves and yellow flowers.",
       "uses": "Artemisia absinthium has been used in traditional medicine to treat a variety of conditions, including digestive issues, fever, and menstrual problems. It is also used to make absinthe, a potent alcoholic beverage.",
       "habitat": "Artemisia absinthium can be found in a variety of habitats, including roadsides, waste areas, and rocky slopes.",
+      "height_cm": 150,
       "active_compounds": {
         "thujone": 0.5,
         "artabsin": 0.3,
@@ -48,11 +56,13 @@
       {
         "id": 4,
         "latin_name": "Cannabis sativa",
+        "name":{
         "lt_name": "Kanapė",
-        "en_name": "Cannabis Sativa",
+        "en_name": "Cannabis Sativa"},
         "description": "Cannabis sativa is a dioecious plant in the family Cannabaceae, native to Central Asia. It has been used for thousands of years for its medicinal and psychoactive properties.",
         "uses": "Cannabis sativa is used for a variety of medicinal and recreational purposes. It may be used to treat pain, nausea, and anxiety, and it is also used recreationally for its psychoactive effects.",
         "habitat": "Cannabis sativa is commonly grown in temperate regions around the world, and it can also be found growing wild in some areas.",
+        "height_cm": 200,
         "active_compounds": {
           "delta-9-tetrahydrocannabinol (THC)": 20.0,
           "cannabidiol (CBD)": 1.0,
@@ -63,11 +73,13 @@
       {
         "id": 5,
         "latin_name": "Chamaenerion angustifolium",
+        "name":{
         "lt_name": "Siauralapis gaurometis",
-        "en_name": "Fireweed",
+        "en_name": "Fireweed"},
         "description": "Chamaenerion angustifolium is a herbaceous perennial plant in the family Onagraceae, native to the temperate regions of the Northern Hemisphere. It has pink to purple flowers and grows in open areas.",
         "uses": "Chamaenerion angustifolium has been used in traditional medicine to treat a variety of conditions, including digestive issues and respiratory problems. It may also have anti-inflammatory properties.",
         "habitat": "Chamaenerion angustifolium can be found in a variety of habitats, including meadows, fields, and forests.",
+        "height_cm": 150,
         "active_compounds": {
           "myricetin": 0.2,
           "quercetin": 0.1,
@@ -78,11 +90,13 @@
       {
         "id": 6,
         "latin_name": "Filipendula ulmaria",
+        "name":{
         "lt_name": "Pelkinė vingiorykštė",
-        "en_name": "Meadowsweet",
+        "en_name": "Meadowsweet"},
         "description": "Filipendula ulmaria is a herbaceous perennial plant in the family Rosaceae, native to Europe and Asia. It has fragrant white or pink flowers and grows in wet habitats.",
         "uses": "Filipendula ulmaria has been used in traditional medicine to treat a variety of conditions, including pain and fever. It may also have anti-inflammatory and antimicrobial properties.",
         "habitat": "Filipendula ulmaria can be found in wet meadows, marshes, and along streams and ditches.",
+        "height_cm": 120,
         "active_compounds": {
           "salicylic acid": 1.5,
           "spiraein": 0.2,
@@ -93,11 +107,13 @@
       {
         "id": 7,
         "latin_name": "Hypericum perforatum",
+        "name":{
         "lt_name": "Paprastoji jonažolė",
-        "en_name": "St John's wort",
+        "en_name": "St John's wort"},
         "description": "St John's wort is a flowering plant with yellow flowers that grows in many parts of the world. It has a long history of use as a medicinal herb, particularly for treating mild to moderate depression and anxiety.",
         "uses": "St John's wort is commonly used to treat mild to moderate depression, anxiety, and sleep disorders. It is also used for other conditions, such as nerve pain, PMS, and menopausal symptoms.",
         "habitat": "St John's wort can be found in many different habitats, including fields, meadows, and woodland edges. It prefers sunny locations and well-drained soil.",
+        "height_cm": 60,
         "active_compounds": {
           "hypericin": 0.3,
           "hyperforin": 5,
@@ -111,11 +127,13 @@
       {
         "id": 8,
         "latin_name": "Hyoscyamus niger",
+        "name":{
         "lt_name": "Juodoji drignė",
-        "en_name": "Henbane",
+        "en_name": "Henbane"},
         "description": "Hyoscyamus niger is a poisonous plant in the Solanaceae family, native to Europe, western Asia and northern Africa. It is an annual or biennial herbaceous plant that grows up to 1 metre tall.",
         "uses": "Hyoscyamus niger has been used for its psychoactive and pain-relieving properties, but it is highly toxic and can cause hallucinations, delirium, and even death. It has also been used as a traditional medicine for various conditions, including asthma, coughs, and motion sickness.",
         "habitat": "Hyoscyamus niger grows in disturbed habitats, such as waste places and roadsides.",
+        "height_cm": 100,
         "active_compounds": {
           "tropane_alkaloids": 0.3
         },
@@ -124,11 +142,13 @@
       {
         "id": 9,
         "latin_name": "Hyssopus officinalis",
+        "name":{
         "lt_name": "Juozažolė",
-        "en_name": "Hyssop",
+        "en_name": "Hyssop"},
         "description": "Hyssop is a perennial herb with blue or purple flowers. It is native to the Mediterranean region, but is now grown in many parts of the world as a medicinal and culinary herb.",
         "uses": "Hyssop is used for a variety of conditions, including digestive problems, respiratory infections, and as a general tonic. It has also been used to help relieve anxiety and nervous tension.",
         "habitat": "Hyssop is typically found in rocky, arid areas in the Mediterranean region, but is now grown in many parts of the world as a garden herb.",
+        "height_cm": 60,
         "active_compounds": {
           "volatile oil": 2,
           "tannins": 4,
@@ -140,11 +160,13 @@
       {
         "id": 10,
         "latin_name": "Humulus lupulus",
+        "name":{
         "lt_name": "Paprastasis apynys",
-        "en_name": "Common hop",
+        "en_name": "Common hop"},
         "description": "Humulus lupulus is a species of flowering plant in the Cannabaceae family, native to Europe, western Asia and North America. It is a dioecious, perennial, herbaceous climbing plant that grows up to 6 metres tall.",
         "uses": "The female flowers of Humulus lupulus are used in brewing to impart flavor and bitterness to beer. Hops have also been used for medicinal purposes, including as a sedative and a digestive aid.",
         "habitat": "Humulus lupulus grows in a variety of soils and climates, but prefers moist, well-drained soils and full sun.",
+        "height_cm": 500,
         "active_compounds": {
           "alpha_acids": 4.5,
           "beta_acids": 4.0,
@@ -156,11 +178,13 @@
       {
         "id": 11,
         "latin_name": "Mandragora officinarum",
+        "name":{
         "lt_name": "Mandragora",
-        "en_name": "Mandrake",
+        "en_name": "Mandrake"},
         "description": "Mandragora officinarum is a poisonous plant in the Solanaceae family, native to the Mediterranean region. It is a perennial herbaceous plant that grows up to 0.3 metres tall.",
         "uses": "Mandragora officinarum has been used for its psychoactive properties and as a traditional medicine for various conditions, including pain relief, sleep disorders, and as an anesthetic.",
         "habitat": "Mandragora officinarum grows in rocky and arid habitats.",
+        "height_cm": 50,
         "active_compounds": {
           "atropine": 0.06,
           "scopolamine": 0.03,
@@ -171,11 +195,13 @@
       {
         "id": 12,
         "latin_name": "Prunella vulgaris",
+        "name":{
         "lt_name": "Paprastoji juodgalvė",
-        "en_name": "Heal-all",
+        "en_name": "Heal-all"},
         "description": "Heal-all is a common herb that is found in many parts of the world. It is known for its medicinal properties and has been used for centuries to treat a variety of ailments.",
         "uses": "Heal-all has been used to treat a wide range of conditions, including sore throat, wounds, and respiratory infections. It is also believed to have anti-inflammatory and antiviral properties.",
         "habitat": "Heal-all is a common plant that grows in meadows, fields, and along roadsides.",
+        "height_cm": 30,
         "active_compounds": {
           "rosmarinic acid": 0.6,
           "ursolic acid": 0.3,
@@ -186,11 +212,13 @@
       {
         "id": 13,
         "latin_name": "Taraxacum officinale",
+        "name":{
         "lt_name": "Kiaulpienė",
-        "en_name": "Dandelion",
+        "en_name": "Dandelion"},
         "description": "Dandelion is a common weed that is found in many parts of the world. It is known for its medicinal properties and has been used for centuries to treat a variety of ailments.",
         "uses": "Dandelion has been used to treat a wide range of conditions, including liver and digestive disorders, skin problems, and arthritis. It is also believed to have diuretic and anti-inflammatory properties.",
         "habitat": "Dandelion is a common plant that grows in meadows, fields, and along roadsides.",
+        "height_cm": 20,
         "active_compounds": {
           "luteolin": 0.6,
           "chicoric acid": 0.2,
@@ -202,11 +230,13 @@
       {
         "id": 14,
         "latin_name": "Thymus serpyllum",
+        "name":{
         "lt_name": "Paprastasis čiobrelis",
-        "en_name": "Wild thyme",
+        "en_name": "Wild thyme"},
         "description": "Thymus serpyllum, commonly known as wild thyme, is a low-growing perennial herb native to Europe and Asia.",
         "uses": "Traditionally used to treat respiratory infections and as a natural insect repellent.",
         "habitat": "Prefers dry, rocky soils and full sun.",
+        "height_cm": 20,
         "active_compounds": {
           "thymol": 0.04,
           "carvacrol": 0.02,
@@ -219,11 +249,13 @@
       {
         "id": 15,
         "latin_name": "Urtica dioica",
+        "name":{
         "lt_name": "Didžioji dilgėlė",
-        "en_name": "Common nettle",
+        "en_name": "Common nettle"},
         "description": "A common perennial herbaceous plant with stinging hairs. It is found in many parts of the world.",
         "uses": "Nettle leaves and roots have been used for traditional medicine, food, and textiles.",
         "habitat": "Nettle prefers moist soils and is often found in disturbed areas, especially near human habitation.",
+        "height_cm": 100,
         "active_compounds": {
           "histamine": 0.02,
           "acetylcholine": 0.03,
@@ -231,19 +263,19 @@
           "formic acid": 2
         },
         "photos": [
-          "nettle1.jpg",
-          "nettle2.jpg",
-          "nettle3.jpg"
+          "nettle1.jpg", "nettle2.jpg", "nettle3.jpg"
         ]
       },
       {
         "id": 16,
         "latin_name": "Verbascum thapsus",
+        "name":{
         "lt_name": "Smulkiažiedė tūbė",
-        "en_name": "Great mullein",
+        "en_name": "Great mullein"},
         "description": "A biennial herbaceous plant with fuzzy leaves and a tall spike of yellow flowers.",
         "uses": "Mullein has been used in traditional medicine for a variety of ailments, including respiratory disorders and skin conditions.",
         "habitat": "Mullein is often found in open, disturbed areas such as roadsides, fields, and meadows.",
+        "height_cm": 200,
         "active_compounds": {
           "mucilage": 3,
           "saponins": 2,
@@ -251,9 +283,7 @@
           "iridoid glycosides": 0.2
         },
         "photos": [
-          "mullein1.jpg",
-          "mullein2.jpg",
-          "mullein3.jpg"
+          "mullein1.jpg", "mullein2.jpg", "mullein3.jpg"
         ]
       }
     ]}            
