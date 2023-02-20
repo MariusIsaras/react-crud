@@ -14,7 +14,7 @@ const Header = () => {
         size="large"
         onClick={() => navigate(routes.PlantsCreatePage)}
       >
-        Create House
+        Add Plant
       </Button>
     </Box>
   );

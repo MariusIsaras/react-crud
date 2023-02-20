@@ -50,33 +50,80 @@ const plantFormPage: React.FC<plantFormPageProps> = ({ mode = 'create' }) => {
         <Typography variant="h4" sx={{ textAlign: 'center' }}>{titleMap[mode]}</Typography>
         <Stack sx={{ gap: 2, mt: 2 }}>
           <TextField
-            label="Title"
+            label="Latin Name"
             fullWidth
             variant="filled"
             name="title"
             required
-            defaultValue={plant?.title}
+            defaultValue={plant?.latin_name}
           />
-          <LocationField
-            defaultCountry={plant?.location.country}
-            defaultCity={plant?.location.city}
-          />
+          <TextField
+          label="LT name"
+          fullWidth
+          variant="filled"
+          name="description"
+          type="string"
+          inputProps={{ step: '0.01' }}
+          required
+            defaultValue={plant?.name.lt_name}
+            />
+          <TextField 
+          label="EN name"
+          fullWidth
+          variant="filled"
+          name="description"
+          type="string"
+          inputProps={{ step: '0.01' }}
+          required
+          defaultValue={plant?.name.en_name}
+            />
+          
           <ImagesField defaultImages={plant?.images} />
 
           <TextField
-            label="Price"
+            label="Description"
             fullWidth
             variant="filled"
-            name="price"
-            type="number"
+            name="description"
+            type="string"
             inputProps={{ step: '0.01' }}
             required
-            defaultValue={plant?.price.slice(0, -1)}
+            defaultValue={plant?.description.slice(0, -1)}
+            sx={{
+              "& .MuiInputBase-root": {
+                  height: 100
+            }}}
           />
-          <Box>
+          <TextField
+            label="Uses"
+            fullWidth
+            variant="filled"
+            name="uses"
+            type="string"
+            inputProps={{ step: '0.01' }}
+            defaultValue={plant?.uses.slice(0, -1)}
+            sx={{
+              "& .MuiInputBase-root": {
+                  height: 100
+            }}}
+          />
+          <TextField
+            label="Habitat"
+            fullWidth
+            variant="filled"
+            name="habitat"
+            type="string"
+            inputProps={{ step: '0.01' }}
+            defaultValue={plant?.habitat.slice(0, -1)}
+            sx={{
+              "& .MuiInputBase-root": {
+                  height: 100
+            }}}
+          />
+          {/* <Box>
             <Typography component="legend">Rating</Typography>
             <Rating name="rating" defaultValue={plant?.rating} />
-          </Box>
+          </Box> */}
 
           <Stack alignItems="center" sx={{ mt: 2 }}>
             <Button
