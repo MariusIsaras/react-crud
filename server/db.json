@@ -16,7 +16,7 @@
         "borneol": 10,
         "camphor": 6
       },
-      "photos": ["yarrow1.jpg", "yarrow2.jpg", "yarrow3.jpg" ]
+      "images": ["http://localhost:5024/yarrow1.jpg", "http://localhost:5024/yarrow2.jpg", "http://localhost:5024/yarrow3.jpg" ]
     },
     {
       "id": 2,
@@ -34,7 +34,7 @@
         "inulin": 45.0,
         "lappaconitine": 0.001
         },
-      "photos": ["burdock1.jpg", "burdock2.jpg", "burdock3.jpg"]
+      "images": ["http://localhost:5024/burdock1.jpg", "http://localhost:5024/burdock2.jpg", "http://localhost:5024/burdock3.jpg"]
     },
     {
       "id": 3,
@@ -51,7 +51,11 @@
         "artabsin": 0.3,
         "anabsinthin": 0.1
       },
-      "photos": ["wormwood1.jpg", "wormwood2.jpg", "wormwood3.jpg"]
+      "images": [
+        "http://localhost:5024/wormwood1.jpg",
+        "http://localhost:5024/wormwood2.jpg",
+        "http://localhost:5024/wormwood3.jpg"
+      ]
     },
       {
         "id": 4,
@@ -68,7 +72,11 @@
           "cannabidiol (CBD)": 1.0,
           "cannabinol (CBN)": 0.2
         },
-        "photos": ["cannabis1.jpg", "cannabis2.jpg", "cannabis3.jpg"]
+        "images": [
+          "http://localhost:5024/cannabis1.jpg",
+         "http://localhost:5024/cannabis2.jpg",
+          "http://localhost:5024/cannabis3.jpg"
+        ]
       },
       {
         "id": 5,
@@ -85,7 +93,7 @@
           "quercetin": 0.1,
           "kaempferol": 0.1
         },
-        "photos": ["fireweed1.jpg", "fireweed2.jpg", "fireweed3.jpg"]
+        "images": ["http://localhost:5024/fireweed1.jpg", "http://localhost:5024/fireweed2.jpg", "http://localhost:5024/fireweed3.jpg"]
       },
       {
         "id": 6,
@@ -102,7 +110,7 @@
           "spiraein": 0.2,
           "mucilage": 0.2
         },
-        "photos": ["meadowsweet1.jpg", "meadowsweet2.jpg", "meadowsweet3.jpg"]
+        "images": ["http://localhost:5024/meadowsweet1.jpg", "http://localhost:5024/meadowsweet2.jpg", "http://localhost:5024/meadowsweet3.jpg"]
       },
       {
         "id": 7,
@@ -122,7 +130,7 @@
           "proanthocyanidins": 1,
           "tannins": 4
         },
-        "photos": ["stjohnswort1.jpg", "stjohnswort2.jpg", "stjohnswort3.jpg"]
+        "images": ["http://localhost:5024/stjohnswort1.jpg", "http://localhost:5024/stjohnswort2.jpg", "http://localhost:5024/stjohnswort3.jpg"]
       },
       {
         "id": 8,
@@ -137,7 +145,7 @@
         "active_compounds": {
           "tropane_alkaloids": 0.3
         },
-        "photos": ["henbane1.jpg", "henbane2.jpg", "henbane3.jpg"]
+        "images": ["http://localhost:5024/henbane1.jpg", "http://localhost:5024/henbane2.jpg", "http://localhost:5024/henbane3.jpg"]
       },
       {
         "id": 9,
@@ -155,7 +163,7 @@
           "marrubin": 0.3,
           "flavonoids": 2
         },
-        "photos": ["hyssop1.jpg", "hyssop2.jpg", "hyssop3.jpg"]
+        "images": ["http://localhost:5024/hyssop1.jpg", "http://localhost:5024/hyssop2.jpg", "http://localhost:5024/hyssop3.jpg"]
       },
       {
         "id": 10,
@@ -172,7 +180,7 @@
           "beta_acids": 4.0,
           "essential_oils": 0.4
         },
-        "photos": ["hop1.jpg", "hop2.jpg", "hop3.jpg"]
+        "images": ["http://localhost:5024/hop1.jpg", "http://localhost:5024/hop2.jpg", "http://localhost:5024/hop3.jpg"]
       },
       
       {
@@ -190,7 +198,7 @@
           "scopolamine": 0.03,
           "hyoscyamine": 0.07
         },
-        "photos": ["mandrake1.jpg", "mandrake2.jpg", "mandrake3.jpg"]
+        "images": ["http://localhost:5024/mandrake1.jpg", "http://localhost:5024/mandrake2.jpg", "http://localhost:5024/mandrake3.jpg"]
       },
       {
         "id": 12,
@@ -207,7 +215,7 @@
           "ursolic acid": 0.3,
           "oleanolic acid": 0.2
         },
-        "photos": ["healall1.jpg","healall2.jpg","healall3.jpg"]
+        "images": ["http://localhost:5024/healall1.jpg","http://localhost:5024/healall2.jpg","http://localhost:5024/healall3.jpg"]
       },
       {
         "id": 13,
@@ -224,7 +232,7 @@
           "chicoric acid": 0.2,
           "taraxasterol": 0.1
         },
-        "photos": ["dandelion1.jpg", "dandelion2.jpg", "dandelion3.jpg"
+        "images": ["http://localhost:5024/dandelion1.jpg", "http://localhost:5024/dandelion2.jpg", "http://localhost:5024/dandelion3.jpg"
         ]
       },
       {
@@ -242,7 +250,7 @@
           "carvacrol": 0.02,
           "rosmarinic_acid": 0.01
         },
-        "photos": ["thyme1.jpg", "thyme2.jpg", "thyme3.jpg"]
+        "images": ["http://localhost:5024/thyme1.jpg", "http://localhost:5024/thyme2.jpg", "http://localhost:5024/thyme3.jpg"]
       },
       
       
@@ -262,8 +270,8 @@
           "serotonin": 0.05,
           "formic acid": 2
         },
-        "photos": [
-          "nettle1.jpg", "nettle2.jpg", "nettle3.jpg"
+        "images": [
+          "http://localhost:5024/nettle1.jpg", "http://localhost:5024/nettle2.jpg", "http://localhost:5024/nettle3.jpg"
         ]
       },
       {
@@ -282,8 +290,8 @@
           "flavonoids": 1,
           "iridoid glycosides": 0.2
         },
-        "photos": [
-          "mullein1.jpg", "mullein2.jpg", "mullein3.jpg"
+        "images": [
+          "http://localhost:5024/mullein1.jpg", "http://localhost:5024/mullein2.jpg", "http://localhost:5024/mullein3.jpg"
         ]
       }
     ]}            

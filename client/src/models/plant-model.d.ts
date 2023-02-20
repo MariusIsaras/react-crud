@@ -9,5 +9,5 @@ type PlantsModel = {
   uses: string,
   height_cm: number,
   habitat: string,
-  photos: string[],
+  images: string[],
 };

@@ -14,7 +14,7 @@ type PlantsCardProps = PlantsModel;
 
 const PlantsCard: React.FC<PlantsCardProps> = ({
   id,
-  photos,
+  images,
   name,
   uses,
   height_cm,
@@ -24,7 +24,7 @@ const PlantsCard: React.FC<PlantsCardProps> = ({
 
   return (
     <Stack sx={{ boxShadow: 3, position: 'relative' }}>
-      <Img src={photos[0]} alt="" sx={{ aspectRatio: '1.42', width: 1 }} />
+      <Img src={images[0]} alt="" sx={{ aspectRatio: '1.42', width: 1 }} />
       <Styled.AdminActions>
         <Button
           variant="contained"

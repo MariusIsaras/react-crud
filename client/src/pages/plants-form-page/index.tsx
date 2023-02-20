@@ -7,7 +7,7 @@ import {
   Button,
   Rating,
 } from '@mui/material';
-import useHouse from 'hooks/usePlants';
+import useplant from 'hooks/usePlants';
 import { useParams } from 'react-router-dom';
 import ImagesField from './images-field';
 import LocationField from './location-field';
@@ -15,14 +15,14 @@ import * as Styled from './styled';
 import { btnColorMap, btnMap, titleMap } from './data';
 import { formatValues } from './helpers';
 
-type HouseFormPageProps = {
+type plantFormPageProps = {
   mode?: 'create' | 'update'
 };
 
-const HouseFormPage: React.FC<HouseFormPageProps> = ({ mode = 'create' }) => {
+const plantFormPage: React.FC<plantFormPageProps> = ({ mode = 'create' }) => {
   const formRef = React.useRef<HTMLFormElement | null>(null);
   const { id } = useParams();
-  const house = useHouse(id);
+  const plant = useplant(id);
 
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = (event) => {
     event.preventDefault();
@@ -42,7 +42,7 @@ const HouseFormPage: React.FC<HouseFormPageProps> = ({ mode = 'create' }) => {
     }
   };
 
-  if (mode === 'update' && house === undefined) return null;
+  if (mode === 'update' && plant === undefined) return null;
 
   return (
     <Styled.Container>
@@ -55,13 +55,13 @@ const HouseFormPage: React.FC<HouseFormPageProps> = ({ mode = 'create' }) => {
             variant="filled"
             name="title"
             required
-            defaultValue={house?.title}
+            defaultValue={plant?.title}
           />
           <LocationField
-            defaultCountry={house?.location.country}
-            defaultCity={house?.location.city}
+            defaultCountry={plant?.location.country}
+            defaultCity={plant?.location.city}
           />
-          <ImagesField defaultImages={house?.images} />
+          <ImagesField defaultImages={plant?.images} />
 
           <TextField
             label="Price"
@@ -71,11 +71,11 @@ const HouseFormPage: React.FC<HouseFormPageProps> = ({ mode = 'create' }) => {
             type="number"
             inputProps={{ step: '0.01' }}
             required
-            defaultValue={house?.price.slice(0, -1)}
+            defaultValue={plant?.price.slice(0, -1)}
           />
           <Box>
             <Typography component="legend">Rating</Typography>
-            <Rating name="rating" defaultValue={house?.rating} />
+            <Rating name="rating" defaultValue={plant?.rating} />
           </Box>
 
           <Stack alignItems="center" sx={{ mt: 2 }}>
@@ -94,4 +94,4 @@ const HouseFormPage: React.FC<HouseFormPageProps> = ({ mode = 'create' }) => {
   );
 };
 
-export default HouseFormPage;
+export default plantFormPage;
